@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-memory-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node build/mongo_server.js",
+    "build": "tsc --project tsconfig.json",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/mongodb-memory-server": "^2.3.0",
+    "mongodb-memory-server": "^8.11.4"
+  }
+}
